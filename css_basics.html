@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS BASICS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Internal CSS -->
+
+<style>
+* {
+    font-family: roboto;
+}
+h1{
+    text-align: center;
+    
+}
+#hero {
+    padding: 50px;
+    background-color: rgb(233, 233, 233);
+}
+
+#hero>h1 {
+    font-size: 5em;
+    font-weight:bolder;
+    margin: 0;
+}
+article{
+    border-style: solid;
+    border-width: 20px;
+    border-color: rgb(27, 228, 178);
+
+}
+.image-spacing{
+    margin: 10px;
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+</style>
+</head>
+<div>
+<body>
+    <center>
+<header>
+    <article>
+    <section id="hero" >
+    <h1>GYM SHARK <i class="fa-solid fa-dumbbell"></i></h1>
+    <p class="article" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Build your muscle shirt with GYM SHARK</p>
+
+        <section id="ok">
+    <a href="#">Home</a>
+    <a href="#men">Men</a>
+    <a href="#women">Women</a>
+    <a href="">Accesories</a>
+</article>
+</center>
+</div>
+<hr>
+<main>
+    <article>
+        <h2>Popular Sites</h2>
+        <section>
+        <ul>
+            <li>
+                <a 
+                class="social-link"
+                href="https://www.facebook.com"
+                target="_blank"
+                >facebook</a>
+                <p class="social-link"  style="color: hsl(180, 100%, 50%); ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates nihil iure expedita nesciunt, asperiores aut quidem dolore minus quos illo facere, quas pariatur distinctio quod obcaecati dolorum libero voluptatem earum.</p>
+            </li>
+            <li>
+            <a 
+            class="social-link"
+            href="https://www.google.com/"
+            target="_blank"
+            >google</a>
+            <p class="social-link" style="color: hsl(271, 100%, 48%);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem rerum natus totam excepturi, ducimus fugit autem magni eveniet, soluta saepe culpa nulla cupiditate quisquam repudiandae ea libero aspernatur sit a!</p>
+        </li>
+            <li>
+                <a 
+                class="social-link"
+                href="https://www.youtube.com"
+                target="_blank"
+                >Youtube</a>
+                <p
+                class="social-link" style="color: goldenrod;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam nihil facere delectus tenetur debitis dolorem voluptatum et nobis omnis repellendus temporibus, blanditiis rem similique non. Assumenda alias dolores quasi eligendi!</p>
+            </li>
+        </ul>
+    </section>
+</article>
+<hr>
+<article>
+
+    <section id="men">
+    <h2>Men</h2>
+    <img class="image-spacing" style="right: auto;" src="data:image/jpeg;base64,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" alt="Men">
+
+    <img class="image-spacing" style="border-image-width: auto;" src="https://i.pinimg.com/originals/8b/30/e7/8b30e7ee478abe63a4a5ac601f127f78.png" width="195" height="245" >
+    <img class="image-spacing" style="border-image-width: auto;" src="https://i.pinimg.com/originals/8a/80/99/8a8099dac8375c587a0bbac0cca1005b.png" width="195" height="245">
+    <img class="image-spacing" style="border-image-width: auto;" src="https://cdn.shopify.com/s/files/1/0156/6146/products/CrestHoodieM_Slim_CoreOliveA2A4G-EBF1.A_ZH_ZH.jpg?v=1644430221" alt="" width="195" height="245">
+</article>
+<hr>
+
+<article>
+
+    <section id="women">
+    <h2>Women</h2>
+    <img class="image-spacing" style="right: auto;" src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1686565108-screenshot-2023-06-12-at-11-17-27-6486f0bd67f5b.png?crop=1xw:1xh;center,top&resize=980:*"  width="195" height="245">
+
+    <img class="image-spacing" style="border-image-width: auto;" src="https://www.hollywoodreporter.com/wp-content/uploads/2023/09/Gymshark-Vital-Seamless-2.0-Light-T-Shirt-Brown-EMBED-2023.png" width="195" height="245" >
+    <img class="image-spacing" style="border-image-width: auto;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxmwZR2zWY6oZeKuLufa9fM4bXPj5pX58EZUmD5DJ0gLaauR5ANB6aoNYvbUjV_eODnFQ&usqp=CAU" width="195" height="245">
+    <img class="image-spacing" style="border-image-width: auto;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8eThgZnyPAZRa_CZudZIJmvewhkPnIU7YIOL19AuIyjil9Ojy1qEroQAD0n9KhLgy_qA&usqp=CAU" alt="" width="195" height="245">
+</article>
+</main>
+    </section>
+</header>
+<hr>
+<footer>
+    <i>&copy; Raven Justine Marco 2024</i>
+  </footer>
+</body>
+</html>
